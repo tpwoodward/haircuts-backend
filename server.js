@@ -9,7 +9,7 @@ const fileUpload = require('express-fileupload')
 
 // database connection ----------------------
 mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log("db connected!"))
+  .then(() => console.log("db connected!!"))
   .catch(err => console.error("db connection failed ", err))
 
 
